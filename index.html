@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+   <div class="container">
+    <h1>Kalkulator BMI</h1>
+    <form action="">
+        
+    <div class="gender">
+        <div class="head">
+        <p>Jenis Kelamin</p></div>
+        <div class="data-gender">
+        <div class="pria">
+            
+        <input type="radio" name="gender" id="gender" value="laki-laki">Laki-laki</div>
+        <div class="wanita">
+        <input type="radio" name="gender" id="gender" value="wanita">Wanita</div></div>
+    </div>
+
+    <div class="data">
+        <p>Usia (Tahun)</p>
+        <input type="text" id="usia" name="usia">
+
+        <p>Tinggi Anda? (cm)</p>
+        <input type="text" id="tinggi" name="tinggi">
+
+        <p>Berat badan Anda? (kg)</p>
+        <input type="text" id="berat" name="berat">
+
+    <div class="button">
+        <button type="button" class="btn" id="hasil">Hasil</button>
+        <button type="reset" class="btn-reset" id="reset">reset</button>
+    </div>
+    </div>
+    <div id="result">result</div>
+    </form>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
